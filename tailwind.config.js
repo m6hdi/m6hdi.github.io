@@ -12,6 +12,14 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        'sorda': ['Sorda-Font', 'sans-serif'], // Adding to Tailwind's theme
+      },
+      colors: {
+        "sorda-orange" : "#ffa326",
+        "sorda-light-orange" : "#feb54e",
+        "sorda-white" : "#f8fcfb"
+      }
     },
   },
   plugins: [],
